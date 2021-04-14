@@ -5,4 +5,6 @@
         <TypeSort>1</TypeSort>
         <Description>Sample Primo project</Description>
     </Project>
+    <RunConfig>None</RunConfig>
+    <RobotEdition>Enterprise</RobotEdition>
 </LTProjectRoot>
