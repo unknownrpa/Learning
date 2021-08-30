@@ -22,10 +22,8 @@
     <Breakpoints />
     <Git>
         <PathToRepo>C:\Test\Primo.Samples\.git\</PathToRepo>
-        <RemoteName>GitHub - Samples</RemoteName>
     </Git>
     <LastOpenedItems>
         <string>C:\Test\Primo.Samples\En\E-Mail\Send message.ltw</string>
-        <string>C:\Test\Primo.Samples\En\Browser\Activate browser.ltw</string>
     </LastOpenedItems>
 </LTProjectResources>

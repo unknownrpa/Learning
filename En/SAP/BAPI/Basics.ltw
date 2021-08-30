@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SerializationRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WorkflowType>0</WorkflowType>
+    <IsTestCase>false</IsTestCase>
+    <ScriptType>CS</ScriptType>
+    <RootContainer>
+        <ClassName>LTools.Workflow.Elements.WFContainerSequence</ClassName>
+        <AssemblyName>LTools.Workflow, Version=1.0.6.1, Culture=neutral, PublicKeyToken=null</AssemblyName>
+        <Properties>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ComponentName</Name>
+                <Value xsi:type="xsd:string">Sequence</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>Annotation</Name>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>TextTag</Name>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>Variables</Name>
+                <Value xsi:type="ArrayOfScriptVariable" />
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ComponentID</Name>
+                <Value xmlns:q1="http://microsoft.com/wsdl/types/" xsi:type="q1:guid">63507542-738a-4984-b18c-d5cfd44a8fb2</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ContinueOnException</Name>
+                <Value xsi:type="xsd:boolean">false</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>PreventLogging</Name>
+                <Value xsi:type="xsd:boolean">false</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>SSSuccess</Name>
+                <Value xsi:type="xsd:boolean">false</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>SSFail</Name>
+                <Value xsi:type="xsd:boolean">false</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>true</IsListValue>
+                <Name>NoCodeProperties</Name>
+                <ListValue />
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>NoCodeUsed</Name>
+                <Value xsi:type="xsd:boolean">false</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>IsCollapsed</Name>
+                <Value xsi:type="xsd:boolean">false</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ShowAnnotation</Name>
+                <Value xsi:type="xsd:boolean">false</Value>
+            </SerializationItem>
+        </Properties>
+        <Components>
+            <SerializationComponent>
+                <ClassName>LTools.Workflow.Elements.WFComment</ClassName>
+                <AssemblyName>LTools.Workflow, Version=1.0.6.1, Culture=neutral, PublicKeyToken=null</AssemblyName>
+                <Properties>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>Comment</Name>
+                        <Value xsi:type="xsd:string">Demonstrates SAP BAPI usage</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ComponentName</Name>
+                        <Value xsi:type="xsd:string">Comment</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>Annotation</Name>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>TextTag</Name>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ComponentID</Name>
+                        <Value xmlns:q2="http://microsoft.com/wsdl/types/" xsi:type="q2:guid">a4c225f2-7d6f-4ca4-9185-7b825a2da608</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ContinueOnException</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>PreventLogging</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>SSSuccess</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>SSFail</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>true</IsListValue>
+                        <Name>NoCodeProperties</Name>
+                        <ListValue />
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>NoCodeUsed</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>IsCollapsed</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ShowAnnotation</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                </Properties>
+            </SerializationComponent>
+            <SerializationComponent xsi:type="SerializationContainer">
+                <ClassName>LTools.SAP.Elements.BAPI.WFBAPIConnection</ClassName>
+                <AssemblyName>LTools.SAP, Version=1.0.2.1, Culture=neutral, PublicKeyToken=null</AssemblyName>
+                <Properties>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>AppServerHost</Name>
+                        <Value xsi:type="xsd:string">"172.20.115.130"</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ComponentName</Name>
+                        <Value xsi:type="xsd:string">BAPI Connection</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>Annotation</Name>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>SystemNumber</Name>
+                        <Value xsi:type="xsd:string">"00"</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>SystemID</Name>
+                        <Value xsi:type="xsd:string">"NPL"</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>User</Name>
+                        <Value xsi:type="xsd:string">"DEVELOPER"</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>Password</Name>
+                        <Value xsi:type="xsd:string">"Appl1ance"</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>Client</Name>
+                        <Value xsi:type="xsd:string">"001"</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>PLanguage</Name>
+                        <Value xsi:type="xsd:string">"EN"</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>PoolSize</Name>
+                        <Value xsi:type="xsd:string">"5"</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>BrowserVar</Name>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>Variables</Name>
+                        <Value xsi:type="ArrayOfScriptVariable" />
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>TextTag</Name>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ComponentID</Name>
+                        <Value xmlns:q3="http://microsoft.com/wsdl/types/" xsi:type="q3:guid">34512e38-2739-4867-8857-9eef7e6306a3</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ContinueOnException</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>PreventLogging</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>SSSuccess</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>SSFail</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>true</IsListValue>
+                        <Name>NoCodeProperties</Name>
+                        <ListValue />
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>NoCodeUsed</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>IsCollapsed</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ShowAnnotation</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                </Properties>
+                <Components>
+                    <SerializationComponent>
+                        <ClassName>LTools.SAP.Elements.BAPI.WFBAPIFunction</ClassName>
+                        <AssemblyName>LTools.SAP, Version=1.0.2.1, Culture=neutral, PublicKeyToken=null</AssemblyName>
+                        <Properties>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>ComponentName</Name>
+                                <Value xsi:type="xsd:string">BAPI Function</Value>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>Annotation</Name>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>BAPIFunctionInfoXML</Name>
+                                <Value xsi:type="xsd:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;BAPIFunction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+    &lt;Name&gt;BAPI_MONITOR_GETLIST&lt;/Name&gt;
+    &lt;Arguments&gt;
+        &lt;BAPIArgument&gt;
+            &lt;Name&gt;RETURN&lt;/Name&gt;
+            &lt;DataType&gt;System.String&lt;/DataType&gt;
+            &lt;Direction&gt;EXPORT&lt;/Direction&gt;
+            &lt;Description&gt;Return Messages&lt;/Description&gt;
+            &lt;IsRequired&gt;true&lt;/IsRequired&gt;
+            &lt;Equation&gt;aaa&lt;/Equation&gt;
+        &lt;/BAPIArgument&gt;
+        &lt;BAPIArgument&gt;
+            &lt;Name&gt;BAPIS_NEW&lt;/Name&gt;
+            &lt;DataType&gt;System.String&lt;/DataType&gt;
+            &lt;Direction&gt;IMPORT&lt;/Direction&gt;
+            &lt;Description&gt;Display New BAPIs in Release&lt;/Description&gt;
+            &lt;IsRequired&gt;false&lt;/IsRequired&gt;
+            &lt;Equation&gt;"test"&lt;/Equation&gt;
+        &lt;/BAPIArgument&gt;
+        &lt;BAPIArgument&gt;
+            &lt;Name&gt;BAPIS_OLD&lt;/Name&gt;
+            &lt;DataType&gt;System.String&lt;/DataType&gt;
+            &lt;Direction&gt;IMPORT&lt;/Direction&gt;
+            &lt;Description&gt;Display BAPIs from Previous Releases&lt;/Description&gt;
+            &lt;IsRequired&gt;false&lt;/IsRequired&gt;
+        &lt;/BAPIArgument&gt;
+        &lt;BAPIArgument&gt;
+            &lt;Name&gt;BAPIS_POTENTIAL&lt;/Name&gt;
+            &lt;DataType&gt;System.String&lt;/DataType&gt;
+            &lt;Direction&gt;IMPORT&lt;/Direction&gt;
+            &lt;Description&gt;Display Potential BAPIs&lt;/Description&gt;
+            &lt;IsRequired&gt;false&lt;/IsRequired&gt;
+        &lt;/BAPIArgument&gt;
+        &lt;BAPIArgument&gt;
+            &lt;Name&gt;OBJECTTYPE&lt;/Name&gt;
+            &lt;DataType&gt;System.String&lt;/DataType&gt;
+            &lt;Direction&gt;IMPORT&lt;/Direction&gt;
+            &lt;Description&gt;Object type&lt;/Description&gt;
+            &lt;IsRequired&gt;false&lt;/IsRequired&gt;
+        &lt;/BAPIArgument&gt;
+        &lt;BAPIArgument&gt;
+            &lt;Name&gt;RELEASED_BAPI&lt;/Name&gt;
+            &lt;DataType&gt;System.String&lt;/DataType&gt;
+            &lt;Direction&gt;IMPORT&lt;/Direction&gt;
+            &lt;Description&gt;Release Status of BAPIs&lt;/Description&gt;
+            &lt;IsRequired&gt;false&lt;/IsRequired&gt;
+        &lt;/BAPIArgument&gt;
+        &lt;BAPIArgument&gt;
+            &lt;Name&gt;RELEASED_FUNC&lt;/Name&gt;
+            &lt;DataType&gt;System.String&lt;/DataType&gt;
+            &lt;Direction&gt;IMPORT&lt;/Direction&gt;
+            &lt;Description&gt;Release Status of Function Modules&lt;/Description&gt;
+            &lt;IsRequired&gt;false&lt;/IsRequired&gt;
+        &lt;/BAPIArgument&gt;
+        &lt;BAPIArgument&gt;
+            &lt;Name&gt;SHOW_RELEASE&lt;/Name&gt;
+            &lt;DataType&gt;System.String&lt;/DataType&gt;
+            &lt;Direction&gt;IMPORT&lt;/Direction&gt;
+            &lt;Description&gt;Release /Reference Release to Display&lt;/Description&gt;
+            &lt;IsRequired&gt;false&lt;/IsRequired&gt;
+        &lt;/BAPIArgument&gt;
+        &lt;BAPIArgument&gt;
+            &lt;Name&gt;BAPILIST&lt;/Name&gt;
+            &lt;DataType&gt;System.String&lt;/DataType&gt;
+            &lt;Direction&gt;TABLES&lt;/Direction&gt;
+            &lt;Description&gt;List of Selected BAPIs&lt;/Description&gt;
+            &lt;IsRequired&gt;false&lt;/IsRequired&gt;
+        &lt;/BAPIArgument&gt;
+        &lt;BAPIArgument&gt;
+            &lt;Name&gt;COMPONENTS2SELECT&lt;/Name&gt;
+            &lt;DataType&gt;System.String&lt;/DataType&gt;
+            &lt;Direction&gt;TABLES&lt;/Direction&gt;
+            &lt;Description&gt;Application Components/Areas to Select&lt;/Description&gt;
+            &lt;IsRequired&gt;false&lt;/IsRequired&gt;
+        &lt;/BAPIArgument&gt;
+        &lt;BAPIArgument&gt;
+            &lt;Name&gt;SYSTEMS2SELECT&lt;/Name&gt;
+            &lt;DataType&gt;System.String&lt;/DataType&gt;
+            &lt;Direction&gt;TABLES&lt;/Direction&gt;
+            &lt;Description&gt;Original System of BAPIs to Select&lt;/Description&gt;
+            &lt;IsRequired&gt;false&lt;/IsRequired&gt;
+        &lt;/BAPIArgument&gt;
+    &lt;/Arguments&gt;
+&lt;/BAPIFunction&gt;</Value>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>TimeOut</Name>
+                                <Value xsi:type="xsd:string">10000</Value>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>TextTag</Name>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>ComponentID</Name>
+                                <Value xmlns:q4="http://microsoft.com/wsdl/types/" xsi:type="q4:guid">d8fdf2be-1886-4471-a602-eb31477cb636</Value>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>ContinueOnException</Name>
+                                <Value xsi:type="xsd:boolean">false</Value>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>PreventLogging</Name>
+                                <Value xsi:type="xsd:boolean">false</Value>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>SSSuccess</Name>
+                                <Value xsi:type="xsd:boolean">false</Value>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>SSFail</Name>
+                                <Value xsi:type="xsd:boolean">false</Value>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>true</IsListValue>
+                                <Name>NoCodeProperties</Name>
+                                <ListValue />
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>NoCodeUsed</Name>
+                                <Value xsi:type="xsd:boolean">false</Value>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>IsCollapsed</Name>
+                                <Value xsi:type="xsd:boolean">false</Value>
+                            </SerializationItem>
+                            <SerializationItem>
+                                <IsListValue>false</IsListValue>
+                                <Name>ShowAnnotation</Name>
+                                <Value xsi:type="xsd:boolean">false</Value>
+                            </SerializationItem>
+                        </Properties>
+                    </SerializationComponent>
+                </Components>
+            </SerializationComponent>
+        </Components>
+    </RootContainer>
+    <GlobalVariables>
+        <ScriptVariable>
+            <Name>aaa</Name>
+            <Group />
+            <DataTypeString>String</DataTypeString>
+            <Direction>IN_OUT</Direction>
+        </ScriptVariable>
+    </GlobalVariables>
+    <Arguments />
+</SerializationRoot>
