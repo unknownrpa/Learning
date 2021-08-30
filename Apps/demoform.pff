@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-16"?>
+<FormModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Items>
+        <FormModelItem>
+            <ElementType>LTools.UserInteractions.View.FormBuilder.Elements.WindowElement</ElementType>
+            <Properties>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>ETitle</Name>
+                    <Value xsi:type="xsd:string">Question</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>HeightDiff</Name>
+                    <Value xsi:type="xsd:double">25</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EName</Name>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EWidth</Name>
+                    <Value xsi:type="xsd:double">400</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EHeight</Name>
+                    <Value xsi:type="xsd:double">131.5</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EPosition</Name>
+                    <Value xsi:type="Point">
+                        <X>0</X>
+                        <Y>0</Y>
+                    </Value>
+                </ElementPropertyValue>
+            </Properties>
+        </FormModelItem>
+        <FormModelItem>
+            <ElementType>LTools.UserInteractions.View.FormBuilder.Elements.TextEditElement</ElementType>
+            <Properties>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>Text</Name>
+                    <Value xsi:type="xsd:string" />
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>Multiline</Name>
+                    <Value xsi:type="xsd:boolean">false</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EName</Name>
+                    <Value xsi:type="xsd:string">txtCmd</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EWidth</Name>
+                    <Value xsi:type="xsd:double">270</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EHeight</Name>
+                    <Value xsi:type="xsd:double">25</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EPosition</Name>
+                    <Value xsi:type="Point">
+                        <X>111</X>
+                        <Y>41.5</Y>
+                    </Value>
+                </ElementPropertyValue>
+            </Properties>
+        </FormModelItem>
+        <FormModelItem>
+            <ElementType>LTools.UserInteractions.View.FormBuilder.Elements.LabelElement</ElementType>
+            <Properties>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>Text</Name>
+                    <Value xsi:type="xsd:string">Type Quit to exit</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EName</Name>
+                    <Value xsi:type="xsd:string">LabelElement</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EWidth</Name>
+                    <Value xsi:type="xsd:double">89</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EHeight</Name>
+                    <Value xsi:type="xsd:double">25</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EPosition</Name>
+                    <Value xsi:type="Point">
+                        <X>11</X>
+                        <Y>41.5</Y>
+                    </Value>
+                </ElementPropertyValue>
+            </Properties>
+        </FormModelItem>
+        <FormModelItem>
+            <ElementType>LTools.UserInteractions.View.FormBuilder.Elements.ButtonElement</ElementType>
+            <Properties>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>Text</Name>
+                    <Value xsi:type="xsd:string">Send</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EName</Name>
+                    <Value xsi:type="xsd:string">btnSend</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EWidth</Name>
+                    <Value xsi:type="xsd:double">75</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EHeight</Name>
+                    <Value xsi:type="xsd:double">25</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EPosition</Name>
+                    <Value xsi:type="Point">
+                        <X>306</X>
+                        <Y>87.5</Y>
+                    </Value>
+                </ElementPropertyValue>
+            </Properties>
+        </FormModelItem>
+        <FormModelItem>
+            <ElementType>LTools.UserInteractions.View.FormBuilder.Elements.ButtonElement</ElementType>
+            <Properties>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>Text</Name>
+                    <Value xsi:type="xsd:string">Exit</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EName</Name>
+                    <Value xsi:type="xsd:string">btnExit</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EWidth</Name>
+                    <Value xsi:type="xsd:double">75</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EHeight</Name>
+                    <Value xsi:type="xsd:double">25</Value>
+                </ElementPropertyValue>
+                <ElementPropertyValue>
+                    <IsListValue>false</IsListValue>
+                    <Name>EPosition</Name>
+                    <Value xsi:type="Point">
+                        <X>11</X>
+                        <Y>87.5</Y>
+                    </Value>
+                </ElementPropertyValue>
+            </Properties>
+        </FormModelItem>
+    </Items>
+</FormModel>

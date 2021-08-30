@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Primo Test Page</title>
+</head>
+<body>
+    <center>
+        <h1>Primo Test Page</h1>
+    </center>
+    <br />
+    <div style="position: relative;">
+        <div>
+            <div id="divAnchor" style="float:left; margin:20px">
+                <img id="imgAnchor" src="./web.png" />
+            </div>
+            <div id="divImage" style="float:left; margin:20px">
+                <img id="imgImage" src="./command.png" onclick="imgImageClick()" />
+            </div>
+        </div>
+        <br />
+        <div id="divConsole" style="bottom: 20px; left: 20px; position: absolute;">
+            <font id="fntConsole" color="red"></font>
+        </div>
+        <div style="margin:20px">
+            <input id="btnVanish" type="button" value="Remove div">
+        </div>
+    </div>
+    <div style="position: relative;margin:20px">
+        list of Li:
+        <ul>
+            <li class="li-class">Li list 1</li>
+            <li class="li-class">Li list 2</li>
+            <li class="li-class">Li list 3</li>
+        </ul>
+    </div>
+    <div style="margin:20px">
+        Text input:
+        <input id="txtInput"/>
+    </div>
+    <div style="margin:20px">
+        Combo-box:
+        <select id="cmbbxItems" style="margin:20px" test-attr="aaa">
+            <option>Item 1</option>
+            <option>Item 2</option>
+            <option>Item 3</option>
+            <option>Item 4</option>
+            <option>Item 5</option>
+        </select>
+        <div style="margin:20px">
+            <input id="btnChangeAttr" type="button" value="Change attribute">
+        </div>
+        List-box:
+        <select id="lstItems" multiple style="margin-left:20px">
+            <option>Item 1</option>
+            <option selected>Item 2</option>
+            <option>Item 3</option>
+            <option>Item 4</option>
+            <option>Item 5</option>
+        </select>
+    </div>
+
+    <div>
+        <table id="tblData">
+            <thead>Test Table</thead>
+            <tbody>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                </tr>
+                <tr>
+                    <td>Cell 1.1</td>
+                    <td>Cell 1.2</td>
+                    <td>Cell 1.3</td>
+                </tr>
+                <tr>
+                    <td>Cell 2.1</td>
+                    <td>Cell 2.2</td>
+                    <td>Cell 2.3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="position: relative;display:table;vertical-align: middle;align-items: center;">
+        <article class="phone-item" style="position: relative;display:table-row;vertical-align: middle">
+            <div style="float:left;border:1px solid grey;">
+                <div>
+                    <h3>
+                        <a href="https://www.mi.com/ru/redmi-9/">Smartphone Xiaomi Redmi 9 4/64GB (NFC), grey</a>
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1533 replies</span>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li>Display: 6.53" (2340×1080)</li>
+                        <li>RAM: 4 Gb</li>
+                        <li>Disk: 64 Gb, Memory slot</li>
+                        <li>4 cameras: 13 МП, 8 МП, 5 МП, 2 МП</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="float:left; margin:20px;border:1px solid grey;">
+                <div>
+                    <span>10 990</span>
+                    &nbsp;
+                    <span>₽</span>
+                </div>
+            </div>
+        </article>
+        <article class="phone-item" style="position: relative;display:table-row;vertical-align: middle">
+            <div style="float:left;border:1px solid grey;">
+                <div>
+                    <h3>
+                        <a href="https://www.realme.com/ru/realme-8">Smartphone realme 8 6/128GB, Cyber Black</a>
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>228 replies</span>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li>Display: 6.4" (2400x1080)</li>
+                        <li>RAM: 6 Gb</li>
+                        <li>Disk: 128 Gb, Memory slot</li>
+                        <li>4 cameras: 64 МП, 8 МП, 2 МП, 2 МП</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="float:left; margin:20px;border:1px solid grey;">
+                <div>
+                    <span>18 099</span>
+                    &nbsp;
+                    <span>₽</span>
+                </div>
+            </div>
+        </article>
+        <article class="phone-item" style="position: relative;display:table-row;vertical-align: middle">
+            <div style="float:left;border:1px solid grey;">
+                <div>
+                    <h3>
+                        <a href="https://www.mi.com/ru/redmi-9a/">Smartphone Xiaomi Redmi 9A 2/32GB RU, grey</a>
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1104 replies</span>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li>Display: 6.53" (1600x720)</li>
+                        <li>RAM: 2 Gb</li>
+                        <li>Disk: 32 Gb, Memory slot</li>
+                        <li>Camera: 13 MP</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="float:left; margin:20px;border:1px solid grey;">
+                <div>
+                    <span>6 989</span>
+                    &nbsp;
+                    <span>₽</span>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <script>
+        btnVanish.addEventListener('click', btnVanishClick);
+        btnChangeAttr.addEventListener('click', btnChangeAttrClick);
+
+        function imgImageClick() {
+            document.getElementById('fntConsole').innerText = "Command Image clicked";
+        }
+
+        function btnVanishClick() {
+            var elem = document.getElementById("divImage");
+            elem.parentNode.removeChild(elem);
+        }
+
+        function btnChangeAttrClick() {
+            var elem = document.getElementById("cmbbxItems");
+            elem.setAttribute("test-attr", "bbb")
+        }
+    </script>
+</body>
+</html>
