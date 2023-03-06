@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WatchScripts />
+    <Ignored>
+        <KeyValueItem>
+            <Key>C:\Test\Primo.Samples\En\Browser\Searching.ltw</Key>
+            <Value>b5494f84-5e8c-4035-85be-83e7880b393e</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Test\Primo.Samples\En\Browser\Searching.ltw</Key>
+            <Value>a7bd85f6-a6bf-4b8e-a507-cda64f494b75</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Test\Primo.Samples\En\Browser\Searching.ltw</Key>
+            <Value>b5ff08e9-3912-4384-8f44-1b1826fa7171</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Test\Primo.Samples\En\Dialogs\Custom input.ltw</Key>
+            <Value>87483195-8415-49fd-85b7-cff289bf3958</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>D:\Git\Learning\En\MS Excel\Basics.ltw</Key>
+            <Value>d441be5a-b440-4414-b41b-5e0b87dc0b59</Value>
+        </KeyValueItem>
+    </Ignored>
+    <Breakpoints />
+    <Git>
+        <PathToRepo>C:\Test\Primo.Samples\.git\</PathToRepo>
+    </Git>
+    <LastOpenedItems>
+        <string>C:\Test\Primo.Samples\En\E-Mail\Send message.ltw</string>
+        <string>C:\JOB\Rondem\Git\Learning\En\Desktop\Read table.ltw</string>
+        <string>C:\JOB\Rondem\Git\Learning\Ru\Рабочий стол\Чтение таблицы.ltw</string>
+    </LastOpenedItems>
+</LTProjectResources>
