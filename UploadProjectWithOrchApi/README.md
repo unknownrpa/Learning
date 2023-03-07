@@ -213,5 +213,5 @@
 | hasInOutputVariable | boolean |
 | hasNotActiveVersions | boolean |
 | exclusiveLaunch | boolean | Проект запускается в единственном экземпляре. <p>Возможные значения:</p><p>•	true – запускается в единственном экземпляре;</p><p>•	false – параметр не включен</p>
-| noDuplicateDeferredQueue | boolean | Не повторять проект в очереди ожидания. <p>Возможные значения:</p><p>•	true – не повторять;</p><p>•	false – повторять в очереди</p>
+| noDuplicateDeferredQueue | boolean | Не повторять проект в очереди ожидания. <p>Возможные значения:</p><p>•	true – не повторять в очереди;</p><p>•	false – повторять</p>
 
