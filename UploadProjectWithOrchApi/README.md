@@ -191,7 +191,7 @@
 | parentId  | integer | В значении может быть null
 | name      | string  | Наименование проекта. В значении может быть null
 | description | string | Описание проекта. Может быть null
-| mainWorkflow | string | Может быть null
+| mainWorkflow | string | Имя файла главного процесса. Может быть null
 | softPlatformName | string | Может быть null
 | softPlatform | integer | Разрядность платформы. <p>Возможные значения:</p> <p>•	1 - х86;</p><p>•	2 - х64</p>
 | runConfig   | integer  | Конфигурация запуска проекта. Возможные значения:<p>•	0 – отсутствует;</p><p>•	1 – отладка;</p><p>•	2 - релиз</p>
