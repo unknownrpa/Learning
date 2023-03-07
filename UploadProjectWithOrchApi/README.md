@@ -206,7 +206,7 @@
 | robotDistrVersions | string | Список версий дистрибутивов через запятую. Если задан, то роботы только с этими версиями дистрибутива смогут выполнять проект. Может быть null 
 | existsNodeConfirms | boolean | Дистрибутив физически присутствует (реплицирован) на всех нодах (узлах). Может быть null 
 | fileId    | string | GUID файла проекта. Может быть null 
-| closeRDPSession | boolean | После выполнения проекта роботом закрыть RDP-сессию
+| closeRDPSession | boolean | После выполнения проекта роботом закрыть RDP-сессию. <p>Возможные значения:</p> <p>•	true – закрыть;</p><p>•	false – не закрывать</p>
 | active  | boolean |
 | hasInputVariable | boolean | 
 | hasOutputVariable |  boolean |
