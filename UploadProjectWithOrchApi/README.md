@@ -190,11 +190,11 @@
 | Параметр  | Тип    | Описание
 |-----------|-------|-----------
 | id        | integer | Уникальный идентификатор записи
-| parentId  | integer | В значении может быть null
-| name      | string  | Наименование проекта. Может быть null
-| description | string | Описание проекта. Может быть null
-| mainWorkflow | string | Имя файла главного процесса. Может быть null
-| softPlatformName | string | Имя программной платформы. Может быть null
+| parentId  | integer | Идентификатор родительской версии проекта, может быть null
+| name      | string  | Наименование проекта, может быть null - имя проекта берется из версии 0
+| description | string | Описание проекта, может быть null
+| mainWorkflow | string | Имя файла главного процесса, может быть null
+| softPlatformName | string | Имя программной платформы, может быть null
 | softPlatform | integer | Разрядность платформы. <p>Возможные значения:</p> <p>•	1 - х86;</p><p>•	2 - х64</p>
 | runConfig   | integer  | Конфигурация запуска проекта. Возможные значения:<p>• 0 – отсутствует;</p><p>•	1 – отладка;</p><p>• 2 - релиз</p>
 | runConfigCustom | string | Специальная конфигурация запуска проекта. Может быть null
@@ -209,10 +209,10 @@
 | existsNodeConfirms | boolean | Дистрибутив физически присутствует (реплицирован) на всех нодах (узлах). Может быть null 
 | fileId    | string | GUID файла проекта. Может быть null 
 | closeRDPSession | boolean | После выполнения проекта роботом закрыть RDP-сессию. <p>Возможные значения:</p> <p>•	true – закрыть;</p><p>•	false – не закрывать</p>
-| active  | boolean |
+| active  | boolean | Проект активен
 | hasInputVariable | boolean | Проект имеет входную переменную
 | hasOutputVariable |  boolean | Проект имеет выходную переменную
-| hasInOutputVariable | boolean |
+| hasInOutputVariable | boolean | Проект имеет переменную типа InOutpu
 | hasNotActiveVersions | boolean | Проект имеет неактивные версии
 | exclusiveLaunch | boolean | Проект запускается в единственном экземпляре. <p>Возможные значения:</p><p>•	true – запускается в единственном экземпляре;</p><p>•	false – параметр не включен</p>
 | noDuplicateDeferredQueue | boolean | Не повторять проект в очереди ожидания. <p>Возможные значения:</p><p>•	true – не повторять в очереди;</p><p>•	false – повторять</p>
