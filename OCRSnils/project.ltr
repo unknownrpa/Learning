@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WatchScripts>
+        <WatchScript>
+            <Script>formResults</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>OCRResults</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>results</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>dataIn</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>dataOut</Script>
+        </WatchScript>
+    </WatchScripts>
+    <Ignored />
+    <Breakpoints>
+        <KeyValueItem>
+            <Key>C:\Users\Alex\Documents\Primo\OCRPassport\test.ltw</Key>
+            <Value>1035f4ac-e796-4cc6-99c2-8e11b6081f53</Value>
+        </KeyValueItem>
+    </Breakpoints>
+    <Git />
+    <LastOpenedItems>
+        <string>C:\Users\Alex\Documents\Primo\OCRPassport\Main.ltw</string>
+        <string>C:\Users\Alex\Documents\Primo\OCRPassport\recognizePassport.ltw</string>
+        <string>C:\Users\Alex\Documents\Primo\OCRSnils\Main.ltw</string>
+        <string>C:\Users\Alex\Documents\Primo\OCRSnils\recognizeDocument.ltw</string>
+        <string>C:\Users\Alex\Documents\Primo\OCRSnils2\Main.ltw</string>
+        <string>C:\Users\Alex\Documents\Primo\OCRSnils2\test.ltw</string>
+    </LastOpenedItems>
+</LTProjectResources>
