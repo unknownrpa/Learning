@@ -12,7 +12,7 @@
    - Текущая дата/время (Current date/time);
    - Часть даты (Date part);
 3. Элементы из группы **Данные > Строки**:
-   - Регулярное выражение (Matches) (Regular expression (Matches);
+   - Регулярное выражение (Matches) (Regular expression (Matches).
 
 
 
