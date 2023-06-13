@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SerializationRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WorkflowType>2</WorkflowType>
+    <IsTestCase>false</IsTestCase>
+    <UseArgs>false</UseArgs>
+    <ScriptType>CS</ScriptType>
+    <RootContainer>
+        <ClassName>LTools.Workflow.View.WFOnlyCode</ClassName>
+        <AssemblyName>LTools.Workflow, Version=1.0.6.1, Culture=neutral, PublicKeyToken=null</AssemblyName>
+        <Properties>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ComponentName</Name>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ComponentID</Name>
+                <Value xmlns:q1="http://microsoft.com/wsdl/types/" xsi:type="q1:guid">00000000-0000-0000-0000-000000000000</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ContinueOnException</Name>
+                <Value xsi:type="xsd:boolean">false</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>Variables</Name>
+                <Value xsi:type="ArrayOfScriptVariable" />
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ScriptCode</Name>
+                <Value xsi:type="xsd:string">using System;
+using System.Collections.Generic;
+using System.Text;
+using LTools.Scripting.Model;
+using LTools.Network.Model;
+using System.Data;
+using System.Data.OleDb;
+
+
+public class PrimoScript
+{
+	public static LTools.Scripting.CSharp.ScriptDebugger __debug;
+	
+	public void main(LTools.Common.Model.WorkflowData wf)
+    {
+		//get input args
+		bool hasHeaders = (bool)wf.GetArgument("in_hasHeaders");
+		string workbookPath = (string)wf.GetArgument("in_workbookPath");
+		string sheetName = (string)wf.GetArgument("in_sheetName");
+		
+		//Prepare Connection parameters
+        string headersProperty = hasHeaders ? "Yes" : "No";
+		string provider = "Microsoft.ACE.OLEDB.12.0";
+		string excelVersion = "Excel 12.0";
+		
+		string connectionString = $@"
+                Provider={provider};
+                Data Source={workbookPath};
+                Extended Properties=""{excelVersion};HDR={headersProperty};IMEX=1""";
+		
+		//Connect to workbook
+		OleDbConnection oleExcelConnection = new OleDbConnection(connectionString);
+		
+		//Prepare sheetName (if name has whitespaces it should be encloused in '' single quotes). Oledb sheet name  should als end with $ sign
+		string oleSheetName = sheetName.Contains(" ") ? $"'{sheetName}$'" : $"{sheetName}$";
+		
+		//Read sheet to DataTable
+        DataTable dtExcel = new DataTable();
+		try
+		{
+			using (OleDbCommand oleExcelCommand = new OleDbCommand())
+	        {
+	            oleExcelCommand.CommandText = $@"Select * From [{oleSheetName}]";
+	            oleExcelCommand.Connection = oleExcelConnection;
+	            using (OleDbDataAdapter oleExcelDataAdapter = new OleDbDataAdapter())
+	            {
+	                oleExcelDataAdapter.SelectCommand = oleExcelCommand;
+	                oleExcelDataAdapter.Fill(dtExcel);
+	                oleExcelConnection.Close();
+	            }
+	        }
+		}
+		catch (Exception e)
+		{
+			oleExcelConnection.Close();
+			LTools.Workflow.PrimoApp.AddToLog(wf, $"Message:{e.Message}, Stack: {e.StackTrace}", LTools.Enums.LogMessageType.Info);
+		}
+
+		
+		//return
+        wf.SetArgument("out_dtFromExcel", dtExcel);
+    }	
+}
+
+
+
+
+</Value>
+            </SerializationItem>
+        </Properties>
+        <Components />
+    </RootContainer>
+    <GlobalVariables />
+    <Arguments>
+        <ScriptVariable>
+            <Name>in_workbookPath</Name>
+            <Group />
+            <DataTypeString>String</DataTypeString>
+            <Direction>IN</Direction>
+        </ScriptVariable>
+        <ScriptVariable>
+            <Name>in_sheetName</Name>
+            <Group />
+            <DataTypeString>String</DataTypeString>
+            <Direction>IN</Direction>
+        </ScriptVariable>
+        <ScriptVariable>
+            <Name>in_hasHeaders</Name>
+            <Group />
+            <DataTypeString>Boolean</DataTypeString>
+            <Direction>IN</Direction>
+        </ScriptVariable>
+        <ScriptVariable>
+            <Name>out_dtFromExcel</Name>
+            <Group />
+            <DataTypeString>System.Data.DataTable</DataTypeString>
+            <Direction>OUT</Direction>
+        </ScriptVariable>
+    </Arguments>
+</SerializationRoot>
