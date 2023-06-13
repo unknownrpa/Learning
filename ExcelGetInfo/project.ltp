@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Project>
+        <Name>ExcelGetInfo</Name>
+        <TypeSort>1</TypeSort>
+        <Description>The process of reading the schedule from Excel and finding information about the duty manager for the current date</Description>
+    </Project>
+    <RunConfig>None</RunConfig>
+    <RobotEdition>Enterprise</RobotEdition>
+</LTProjectRoot>
