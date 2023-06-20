@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WatchScripts />
+    <Ignored />
+    <Breakpoints>
+        <KeyValueItem>
+            <Key>C:\Users\00-0000.umik16\Documents\Primo\AD_Example\Main.ltw</Key>
+            <Value>09f88337-24a7-4c93-819c-584e9bdc3908</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Users\00-0000.umik16\Documents\Primo\AD_Example\GetUsersByLdapFilter.ltw</Key>
+            <Value>be62ba8b-8a11-46dd-a8e5-14e4417ced1e</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Users\00-0000.umik16\Documents\Primo\AD_Example\Search AD User.ltw</Key>
+            <Value>325fcbc9-22b7-4c98-99bb-2e2946bb7beb</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Users\00-0000.umik16\Documents\Primo\AD_Example\Test.ltw</Key>
+            <Value>85767ca7-084f-4539-b602-8058e123d7e5</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Users\00-0000.umik16\Documents\Primo\AD_Example\ActiveDirectoryExamples.ltw</Key>
+            <Value>e16b015c-9c20-4a2b-946f-b5e78de8f48b</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Users\00-0000.umik16\Documents\Primo\AD_Example\GetObjectsByLdapFilter.ltw</Key>
+            <Value>be62ba8b-8a11-46dd-a8e5-14e4417ced1e</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Users\oxy2c\Desktop\WORK\_Организационные\Примеры\AD_Example\ActiveDirectoryExamples.ltw</Key>
+            <Value>e16b015c-9c20-4a2b-946f-b5e78de8f48b</Value>
+        </KeyValueItem>
+    </Breakpoints>
+    <Git />
+    <LastOpenedItems>
+        <string>C:\Users\00-0000.umik16\Documents\Primo\AD_Example\Main.ltw</string>
+        <string>C:\Users\00-0000.umik16\Documents\Primo\AD_Example\GetUsersByLdapFilter.ltw</string>
+        <string>C:\Users\00-0000.umik16\Documents\Primo\AD_Example\ActiveDirectoryExamples.ltw</string>
+        <string>C:\Users\00-0000.umik16\Documents\Primo\AD_Example\CheckMappedLogicalDrives.ltw</string>
+        <string>C:\Users\oxy2c\Desktop\WORK\_Организационные\Примеры\AD_Example\ActiveDirectoryExamples.ltw</string>
+    </LastOpenedItems>
+</LTProjectResources>
