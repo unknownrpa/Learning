@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WatchScripts>
+        <WatchScript>
+            <Script>data</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>dt</Script>
+        </WatchScript>
+        <WatchScript>
+            <Script>dtRes</Script>
+        </WatchScript>
+    </WatchScripts>
+    <Ignored />
+    <Breakpoints>
+        <KeyValueItem>
+            <Key>C:\Users\Alex\Documents\Primo\LearningPureCode\Новый процесс.ltw</Key>
+            <Value>522cd6b3-7629-4421-86d9-14ae5019bb1b</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>C:\Users\Alex\Documents\Primo\LearningPureCode\Main.ltw</Key>
+            <Value>ceba8133-0f63-48c1-a0a9-9be69c5251ac</Value>
+        </KeyValueItem>
+    </Breakpoints>
+    <Git />
+    <LastOpenedItems>
+        <string>C:\Users\Alex\Documents\Primo\LearningPureCode\Main.ltw</string>
+        <string>C:\Users\Alex\Documents\Primo\LearningPureCode\C\createTable.ltw</string>
+        <string>C:\Users\Alex\Documents\Primo\LearningPureCode\C\ReadCell.ltw</string>
+        <string>C:\Users\Alex\Documents\Primo\LearningPureCode\C\ReadFormula.ltw</string>
+        <string>C:\Users\Alex\Documents\Primo\LearningPureCode\JS\ReadCellJS.ltw</string>
+        <string>C:\Users\Alex\Documents\Primo\LearningPureCode\Python\ReadCellPy.ltw</string>
+        <string>C:\Users\to_tamara\Desktop\МИТИНГИ ПРИМО\Pure code\LearningPureCode\LearningPureCode\C\createTable.ltw</string>
+    </LastOpenedItems>
+</LTProjectResources>

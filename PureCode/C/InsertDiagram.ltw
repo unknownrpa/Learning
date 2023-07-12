@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SerializationRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WorkflowType>2</WorkflowType>
+    <IsTestCase>false</IsTestCase>
+    <UseArgs>false</UseArgs>
+    <ScriptType>CS</ScriptType>
+    <RootContainer>
+        <ClassName>LTools.Workflow.View.WFOnlyCode</ClassName>
+        <AssemblyName>LTools.Workflow, Version=1.0.6.1, Culture=neutral, PublicKeyToken=null</AssemblyName>
+        <Properties>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ComponentName</Name>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ComponentID</Name>
+                <Value xmlns:q1="http://microsoft.com/wsdl/types/" xsi:type="q1:guid">00000000-0000-0000-0000-000000000000</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ContinueOnException</Name>
+                <Value xsi:type="xsd:boolean">false</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>Variables</Name>
+                <Value xsi:type="ArrayOfScriptVariable" />
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>ScriptCode</Name>
+                <Value xsi:type="xsd:string">using System;
+using System.Collections.Generic;
+using System.Text;
+using LTools.Scripting.Model;
+using LTools.Network.Model;
+using LTools.Office.Model;
+
+public class PrimoScript
+{
+	public static LTools.Scripting.CSharp.ScriptDebugger __debug;
+	
+	public void main(LTools.Common.Model.WorkflowData wf)
+    {
+        //Компонент, создающий диаграмму на листе Excel.  Свойства
+		//app - [LTools.Office.ExcelApp] Приложение Excel
+		//range - Диапазон: [String] Диапазон данных (A1:D12). Если не указан, будет использован выделенный диапазон.  Если указан символ "*", будет использован весь лист
+		//sheet - Страница: [String] Наименование страницы
+		//sheetIdx - Индекс страницы: [Int32] Индекс страницы
+		//cht - Тип: Тип диаграммы
+		//cLeft - Слева: [Int32] Отступ слева
+		//cTop - Сверху: [Int32] Отступ сверху
+		//cWidth - Ширина: [Int32] Ширина диаграммы
+		//cHeight - Высота: [Int32] Высота диаграммы
+		//LTools.Office.Model.Excel.ExcelChartItem data = app.InsertChart(range, cht, [sheet], [sheetIdx], [cLeft], [cTop], [cWidth], [cHeight]);
+		
+		
+		LTools.Office.ExcelApp app = LTools.Office.ExcelApp.Init(wf, ".\\book.xlsx", ";", LTools.Office.Model.InteropTypes.DX);
+		LTools.Office.Model.Excel.ExcelChartItem data = app.InsertChart("*", LTools.Office.Model.Excel.ChartTypes.Line, "Лист1", 0, 10, 10, 800, 800);
+		app.SaveAs(".\\bookdiagram.xlsx");
+		
+    }
+}</Value>
+            </SerializationItem>
+        </Properties>
+        <Components />
+    </RootContainer>
+    <GlobalVariables />
+    <Arguments />
+</SerializationRoot>
