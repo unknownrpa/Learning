@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Project>
+        <Name>RPA Challenge Performer</Name>
+        <TypeSort>1</TypeSort>
+        <OrchId>0</OrchId>
+        <Description>Транзакционный процесс
+
+Наименование процесса: RPA Challenge Performer
+Описание процесса: Для данного процесса уже подготовлена очередь процессом RPA Challenge Dispatcher. Робот открывает сайт RPA Challenge и обрабатывает каждую транзакцию. В конце выдает время заполнения всех строк.
+
+Комментарий разработчика:Нет</Description>
+    </Project>
+    <RunConfig>None</RunConfig>
+    <RobotEdition>Enterprise</RobotEdition>
+</LTProjectRoot>

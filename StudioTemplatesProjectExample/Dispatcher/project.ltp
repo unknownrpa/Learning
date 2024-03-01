@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Project>
+        <Name>RPA Challenge Dispatcher</Name>
+        <TypeSort>1</TypeSort>
+        <OrchId>0</OrchId>
+        <Description>Линейный процесс
+
+Название процесса: RPA Challenge Dispatcher
+Описание процесса: Данный процесс скачивает файл с сайта RPA Challenge
+и записывает каждую строку в очередь как транзакцию. 
+В последствии процесс RPA Challenge Performer обработает элементы очереди.
+
+Комментарий разработчика: Нет</Description>
+    </Project>
+    <RunConfig>None</RunConfig>
+    <RobotEdition>Enterprise</RobotEdition>
+</LTProjectRoot>

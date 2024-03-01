@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WatchScripts />
+    <Ignored />
+    <Breakpoints />
+    <BreakpointLines />
+    <Git />
+    <LastOpenedItems>
+        <string>C:\Users\kn0ck\Documents\Primo\Reframework_Primo\Orchestrator Queue\Транзакционный процесс Шаблон\Main.ltw</string>
+        <string>C:\Users\kn0ck\Documents\Primo\Reframework_Primo\Orchestrator Queue\Транзакционный процесс Шаблон\Компоненты\SetTransactionStatus.ltw</string>
+        <string>C:\Users\kn0ck\Documents\Primo\Reframework_Primo\Orchestrator Queue\Транзакционный процесс Шаблон\Компоненты\GetTransactionData.ltw</string>
+        <string>C:\Users\kn0ck\Documents\Primo\Reframework_Primo\Orchestrator Queue\Транзакционный процесс Шаблон\Компоненты\InitAllApplications.ltw</string>
+        <string>C:\Users\kn0ck\Documents\Primo\Reframework_Primo\Orchestrator Queue\Транзакционный процесс Шаблон\Компоненты\InitAllSettings.ltw</string>
+        <string>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Транзакционный процесс Шаблон\Main.ltw</string>
+        <string>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Транзакционный процесс Шаблон\Компоненты\CloseAllApplications.ltw</string>
+        <string>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Транзакционный процесс Шаблон\Компоненты\InitAllApplications.ltw</string>
+        <string>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Транзакционный процесс Шаблон\Компоненты\KillAllProcesses.ltw</string>
+        <string>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Транзакционный процесс Шаблон\Компоненты\Process.ltw</string>
+        <string>C:\Users\samso\OneDrive\Рабочий стол\Новая папка\Primo\Шаблоны\Демо\Performer\Main.ltw</string>
+        <string>C:\Users\samso\OneDrive\Рабочий стол\Новая папка\Primo\Шаблоны\Демо\Performer\Компоненты\Process.ltw</string>
+    </LastOpenedItems>
+</LTProjectResources>

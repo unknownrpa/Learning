@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WatchScripts />
+    <Ignored />
+    <Breakpoints>
+        <KeyValueItem>
+            <Key>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Dispatcher\Main.ltw</Key>
+            <Value>82124217-9860-4009-bd4f-0edcb7221c47</Value>
+        </KeyValueItem>
+    </Breakpoints>
+    <BreakpointLines />
+    <Git />
+    <LastOpenedItems>
+        <string>P:\Users\Rafil Timerbaev GP\Primo\Проекты\Primo_REFRAMEWORK\New project\Main.ltw</string>
+        <string>P:\Users\Rafil Timerbaev GP\Primo\Проекты\Primo_REFRAMEWORK\Линейный процесс\Main.ltw</string>
+        <string>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Dispatcher\Main.ltw</string>
+        <string>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Dispatcher\Компоненты\KillAllProcesses.ltw</string>
+        <string>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Dispatcher\Компоненты\InitAllSettings.ltw</string>
+        <string>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Dispatcher\Компоненты\InitAllApplications.ltw</string>
+        <string>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Dispatcher\Компоненты\Process.ltw</string>
+        <string>C:\Users\samso\OneDrive\Документы\Primo\rpa_challenge\Dispatcher\Компоненты\CloseAllApplications.ltw</string>
+    </LastOpenedItems>
+</LTProjectResources>
