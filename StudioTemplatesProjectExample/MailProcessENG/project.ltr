@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WatchScripts>
+        <WatchScript>
+            <Script>(in_TransactionItem.Element as Microsoft.Exchange.WebServices.Data.EmailMessage).Categories=new Microsoft.Exchange.WebServices.Data.StringList(new string[]{"Зеленая категория"})</Script>
+        </WatchScript>
+    </WatchScripts>
+    <Ignored />
+    <Breakpoints>
+        <KeyValueItem>
+            <Key>C:\Users\Danil Kukh\Documents\Primo\Mail Process Template ENG\New process.ltw</Key>
+            <Value>1fecdf52-833b-45d9-896b-6af40c7e3027</Value>
+        </KeyValueItem>
+        <KeyValueItem>
+            <Key>P:\Users\Rafil Timerbaev GP\Primo\Проекты\Primo_REFRAMEWORK\Mail Process Template\Mail Process Template ENG\Main.ltw</Key>
+            <Value>aec91cc1-a061-4e47-a552-b6086bb7324f</Value>
+        </KeyValueItem>
+    </Breakpoints>
+    <BreakpointLines />
+    <Git />
+    <LastOpenedItems>
+        <string>P:\Users\Rafil Timerbaev GP\Primo\Проекты\Primo_REFRAMEWORK\Mail Process Template\Mail Process Template ENG\Framework\MarkMail.ltw</string>
+        <string>P:\Users\Rafil Timerbaev GP\Primo\Проекты\Primo_REFRAMEWORK\Mail Process Template\Mail Process Template ENG\Framework\SetTransactionStatus.ltw</string>
+        <string>P:\Users\Rafil Timerbaev GP\Primo\Проекты\Primo_REFRAMEWORK\Mail Process Template\Mail Process Template ENG\Framework\ReadMail.ltw</string>
+        <string>P:\Users\Rafil Timerbaev GP\Primo\Проекты\Primo_REFRAMEWORK\Mail Process Template\Mail Process Template ENG\Framework\Process.ltw</string>
+        <string>P:\Users\Rafil Timerbaev GP\Primo\Проекты\Primo_REFRAMEWORK\Mail Process Template\Mail Process Template ENG\Main.ltw</string>
+        <string>P:\Users\Rafil Timerbaev GP\Primo\Проекты\Primo_REFRAMEWORK\Mail Process Template\Mail Process Template ENG\Framework\InitAllSettings.ltw</string>
+    </LastOpenedItems>
+</LTProjectResources>
