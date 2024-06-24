@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Office.Interop</id>
+    <version>2.0.0</version>
+    <title></title>
+    <authors>Rondem</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft Office interop assemblies</description>
+  </metadata>
+</package>
