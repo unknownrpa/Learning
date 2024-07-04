@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<LTProjectResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WatchScripts />
+    <Ignored />
+    <Breakpoints>
+        <KeyValueItem>
+            <Key>C:\Development\Primo\InteractiveActivities\ProgressTest.ltw</Key>
+            <Value>be1ee04a-1d0e-48d8-ba37-ea43cd913c3e</Value>
+        </KeyValueItem>
+    </Breakpoints>
+    <BreakpointLines />
+    <Git />
+    <LastOpenedItems>
+        <string>C:\Development\Primo\InteractiveActivities\DisplayMessageTest.ltw</string>
+        <string>C:\Development\Primo\InteractiveActivities\ProgressTest.ltw</string>
+        <string>C:\Development\Primo\InteractiveActivities\DisplayMessageWait.ltw</string>
+        <string>C:\Development\Primo\InteractiveActivities\CloseTest.ltw</string>
+    </LastOpenedItems>
+</LTProjectResources>
