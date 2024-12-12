@@ -6,7 +6,7 @@ Here, you will find project examples that showcase the functionality of Studio e
 
 All projects can be downloaded as a single archive. To do so, click in the top-right corner **Code > Download ZIP**:
 
-![](<.gitbook/assets/how-download.png>)
+![image](https://github.com/user-attachments/assets/fa36b35f-1dca-463b-a6fb-c05b101880e8)
 
 It is recommended to download the materials as an archive rather than as separate processes because some projects may include additional resources (Excel files, test applications, etc.) that are essential for certain workflows to function properly.
 
