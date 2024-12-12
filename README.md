@@ -13,41 +13,44 @@ It is recommended to download the materials as an archive rather than as separat
 ## RPA Projects (PRO Mode)
 These projects are developed in PRO mode within the Studio and utilize the **Sequence process** type.
 
-* **StudioActivities** - RPA-проект с набором базовых элементов для автоматизации различных задач. Содержит компоненты для работы с FTP, Google Sheets, сетями, оптическим распознаванием символов (OCR), PDF, системой SAP и другими. Помимо этого, доступны элементы для взаимодействия с приложениями Microsoft Office, базами данных, браузерами, а также для управления данными, графиками, диалогами и многим другим. 
+* **StudioActivities** - An RPA project with a set of basic elements for automating various tasks. It includes components for working with FTP, Google Sheets, networks, Optical Character Recognition (OCR), PDFs, SAP systems, and more. Additionally, it provides elements for interacting with Microsoft Office applications, databases, browsers, as well as tools for managing data, charts, dialogs, and much more. 
 
-* **ActiveDirectoryExamples** - проект, обучающий работе с пакетом элементов Primo.ActiveDirectory. Демонстрирует процесс подключения к серверу Active Directory и выполнения различных действий, таких как: поиск объектов, получение атрибутов пользователя, добавление и удаление пользователя из группы. Проект предназначен для работы на машине, находящейся в одной сети с сервером Active Directory.
+* **ActiveDirectoryExamples** - A project designed to teach how to work with the Primo.ActiveDirectory package. It demonstrates the process of connecting to an Active Directory server and performing various actions, such as searching for objects, retrieving user attributes, and adding or removing users from a group. The project is intended to be executed on a machine that is on the same network as the Active Directory server.
+  
+* **ExcelGetInfo** - This project is designed for processing data in Excel files, with the primary task being the extraction of necessary information from files in this format.
+During the process, you will learn how to use various tools such as range search, column and cell reading, as well as working with dates and regular expressions. An example Excel file, Schedule, is attached to the project for practice purposes.
 
-* **ExcelGetInfo** - проект предназначен для обработки данных в Excel-файлах. Основная задача - извлечение необходимой информации из файлов этого формата.
-В процессе работы вы научитесь использовать различные инструменты, такие как поиск в диапазоне, чтение колонок и ячеек, а также работу с датами и регулярными выражениями. В качестве примера к проекту прикреплен Excel-файл Schedule, на котором можно попрактиковаться.
+* **WorkWithExcelExample** - This project demonstrates interaction with Excel files, including the use of core Primo Studio elements.
+The project implements reading an Excel file via Interop using OnlyCode and a connected Interop dependency, as well as reading the file via OleDB with OnlyCode and the associated dependency. Additionally, it includes interaction with Excel using ODBC queries.
+A detailed description of the process can be found in the document "Process Description - WorkWithExcelExample.docx", attached to the project.
 
-* **WorkWithExcelExample** - предназначен для демонстрации взаимодействия с файлами Excel, включая использование основных элементов Primo Studio. В ходе проекта реализовано чтение файла через Interop с помощью OnlyCode и подключенной зависимостью Interop, а также чтение файла через OleDB с использованием OnlyCode и подключенной зависимостью. Проект также включает в себя взаимодействие с Excel через ODBC запросы. Подробное описание процесса можно найти в документе "Описание процесса WorkWithExcelExample.docx", прикрепленном к проекту.
-
-* **OCRSnils** - представляет собой демонстрационного робота, разработанного для автоматического распознавания СНИЛСа с использованием компонентов OCR (оптического распознавания символов).
-С помощью технологии OCR, робот способен сканировать и анализировать текстовую информацию в документах, затем извлекать и распознавать номер СНИЛСа. Это позволяет автоматизировать и ускорить процесс обработки документов, связанных с СНИЛСом.
-Примеры таких документов можно найти в папке SNILS.
+* **OCRSnils** - This is a demo robot designed for the automatic recognition of SNILS numbers using OCR (Optical Character Recognition) components.
+Using OCR technology, the robot can scan and analyze textual information in documents, extract, and recognize SNILS numbers. This automation accelerates and simplifies the processing of documents related to SNILS.
+Examples of such documents can be found in the SNILS folder.
 
 
-### RPA-проекты (режим Citizen)
+### RPA Projects (Citizen Mode)
 
-Папка **Citizen** содержит RPA-проекты, разработанные в Citizen-режиме Студии. А именно:
-* **AddNewClientsToCRM (Добавление новых клиентов в CRM)** - демонстрирует создание автоматизированного процесса добавления новых данных в CRM.
-* **SaveAttachOutlook (Сохранить вложение из Outlook)** - проект включает в себя настройку, которая автоматически сохраняет вложения из электронных писем, полученных через Outlook. Это может быть полезным для обработки и хранения важных файлов, получаемых по электронной почте. Это также может помочь в избежании потери данных или документов.
-* **SaveExtractFromEGRUL (Сохранить и извлечь данные из ЕГРЮЛ)** - проект связан с извлечением и сохранением данных из Единого государственного реестра юридических лиц (ЕГРЮЛ). Используется для анализа данных о компаниях, поиска информации о конкретных организациях и т. д. Позволит освоить методы автоматизированного сбора данных с публичных источников, что может быть полезным в аналитической работе.
+The **Citizen** folder contains RPA projects developed in the Studio's Citizen mode, including:
+* **AddNewClientsToCRM (Adding New Clients to the CRM)** - demonstrates the creation of an automated process for adding new data to the CRM.
+* **SaveAttachOutlook (Save an Attachment from Outlook)** - the project includes a configuration that automatically saves attachments from emails received via Outlook. This can be useful for processing and storing important files received by email, helping to prevent data or document loss.
+* **SaveExtractFromEGRUL (Save and Extract Data from the Unified State Register of Legal Entities (USRLE))** - the project is focused on extracting and saving data from the Unified State Register of Legal Entities (USRLE). It is used for analyzing company data, searching for information about specific organizations, and more. This project will help you learn methods for automated data collection from public sources, which can be valuable for analytical work.
 
-### Проект для работы с Pure code
+### Project for Working with Pure Code
 
-Папка **LearningPureCode** содержит RPA-проект, в котором для сценариев автоматизации был выбран процесс с типом **Только код (Pure code)**. 
+The **LearningPureCode** folder contains an RPA project where the **Pure Code** process type was selected for automation scenarios. 
 
-В проекте имеются 3 основные подпапки - С, JS и Python. Они соответствуют выбранному языку программирования при создании процесса Pure code. Сценарии включают в себя операции с общими элементами Студии:
-  * Создание таблицы в Excel.
-  * Чтение данных из ячейки Excel.
-  * Чтение формул из ячейки Excel.
-  * Вставка диаграммы в Excel.
-  * Синхронизация папок в Outlook.
-  * Выполнение скрипта VB.
+The project contains three main subfolders: C, JS, and Python. These correspond to the programming language selected when creating the Pure Code process. The scenarios include operations with common Studio elements:
+* Creating a table in Excel.
+* Reading data from an Excel cell.
+* Reading formulas from an Excel cell.
+* Inserting a chart into Excel.
+* Synchronizing folders in Outlook.
+* Executing a VB script.
 
-### API Оркестратора
+### Orchestrator's API 
 
-**UploadProjectWithOrchApi** - представляет собой инструкцию по добавлению готового RPA-проекта в Оркестратор с использованием API. Подробное описание API можно найти в Swagger. Для доступа к Swagger необходимо воспользоваться документом «Руководство по открытию Swagger», который включен в поставку Оркестратора.
+**UploadProjectWithOrchApi** - This is a guide on adding a ready-made RPA project to the Orchestrator using the API. 
+A detailed description of the API can be found in Swagger. To access Swagger, refer to the document "Guide to Opening Swagger", which is included in the Orchestrator package.
 
-Желаем успешного обучения!
+We wish you successful learning!
