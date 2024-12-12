@@ -1,17 +1,17 @@
 # Learning
 
-Добро пожаловать в Primo RPA Learning! 
+Welcome to Primo RPA Learning!
 
-Здесь вы найдете примеры проектов, которые демонстрируют работу элементов Студии. Они помогут понять, как использовать тот или иной элемент в своем сценарии. 
+Here, you will find project examples that showcase the functionality of Studio elements. These examples will help you understand how to use each element in your workflow.
 
-Все проекты можно скачать одним архивом. Для этого нажмите в правом верхнем углу **Code > Download ZIP**:
+All projects can be downloaded as a single archive. To do so, click in the top-right corner **Code > Download ZIP**:
 
 ![](<.gitbook/assets/how-download.png>)
 
-Рекомендуется скачивать материал в виде архива, а не отдельными процессами, поскольку к проектам могут быть приложены дополнительные материалы (Excel-файлы, тестовое приложение и др.), без которых ряд сценариев не будет работать.
+It is recommended to download the materials as an archive rather than as separate processes because some projects may include additional resources (Excel files, test applications, etc.) that are essential for certain workflows to function properly.
 
-## RPA-проекты (режим PRO)
-Данные проекты разработаны в режиме PRO в Студии и используют тип процесса **Последовательность**.
+## RPA Projects (PRO Mode)
+These projects are developed in PRO mode within the Studio and utilize the **Sequence process** type.
 
 * **StudioActivities** - RPA-проект с набором базовых элементов для автоматизации различных задач. Содержит компоненты для работы с FTP, Google Sheets, сетями, оптическим распознаванием символов (OCR), PDF, системой SAP и другими. Помимо этого, доступны элементы для взаимодействия с приложениями Microsoft Office, базами данных, браузерами, а также для управления данными, графиками, диалогами и многим другим. 
 
